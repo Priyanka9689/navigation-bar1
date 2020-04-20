@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NAVIGATION BAR</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<style>
+	
+	body{
+		background:url("best1.jpg")center no-repeat;
+		height: 100vh;
+		background-size: cover;
+		
+	}
+	.main{
+		width: 75%;
+		height: 100px;
+		margin:0px auto;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.main ul li{
+		height: 50px;
+		width: 200px;
+		font-size: 20px;
+		line-height: 50px;
+		text-align: center;
+		background-color: black;
+		display: block;
+		color: white;
+		float: left;
+		border-color: height;
+		cursor: pointer;
+		opacity: 0.6;
+	}
+	.main ul li a{
+		color: white;
+		text-decoration: none;
+		height: 20px;
+		text-align: 20px;
+		margin-left: 10px;
+	}
+.main ul li:hover{
+	background-color:#32C032;
+opacity: 1;
+}
+.main ul li ul li{
+	display:none;
+}
+.main ul li:hover ul li
+{
+	display: block;
+
+}
+.main ul li ul li{
+	position:relative;
+}
+.main ul li ul li ul {
+	position:absolute;
+	right:200px;
+top:0px;
+	}
+	
+</style>
+<body>
+	<div class="main">
+<ul>
+	<li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+	<li><a href="#"><i class="fas fa-user"></i>About us</a></li>
+	<li><a href="#"><i class="far fa-clone"></i>Services</a></li>
+	<li><a href="#"><i class="fas fa-phone"></i></i>Contacts</a></li>
+	<li><a href="#"><i class="fas fa-edit"></i>Courses</a>
+		<ul>
+			<li>Php</li>
+			<li>Phython</li>
+			<li>Java</li>
+			<li>Web
+				<ul>
+					<li>Html</li>
+					<li>Css</li>
+					<li>Angular</li>
+				</ul>
+			</li>
+
+		</ul>
+	</li>
+</ul>
+
+</div>
+
+</body>
+</html>
+
+
+
